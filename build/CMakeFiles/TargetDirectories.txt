@@ -1,0 +1,5 @@
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/CMakeFiles/BuzvisApp.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/CMakeFiles/edit_cache.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/CMakeFiles/rebuild_cache.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/CMakeFiles/BuzvisApp_autogen_timestamp_deps.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/CMakeFiles/BuzvisApp_autogen.dir
