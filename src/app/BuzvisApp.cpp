@@ -1,4 +1,4 @@
-#include "BuzvisApp.h"
+#include "../app/BuzvisApp.h"
 #include "../ui/mainwindow.h"
 
 BuzvisApp* BuzvisApp::instance = nullptr;
