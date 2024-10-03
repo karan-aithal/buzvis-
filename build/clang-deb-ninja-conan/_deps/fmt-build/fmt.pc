@@ -1,0 +1,11 @@
+prefix=/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/install
+exec_prefix=/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/install
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 11.0.2
+Libs: -L${libdir} -lfmtd
+Cflags: -I${includedir}
+

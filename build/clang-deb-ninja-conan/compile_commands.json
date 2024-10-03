@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/karan/.pyenv/versions/3.9.20/include/python3.9 -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/include\" -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -isystem \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -O0 --coverage -g -fsanitize=address -g -std=c++17 -fPIC -o CMakeFiles/BuzvisApp.dir/BuzvisApp_autogen/mocs_compilation.cpp.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/mocs_compilation.cpp\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/BuzvisApp.dir/BuzvisApp_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/karan/.pyenv/versions/3.9.20/include/python3.9 -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/include\" -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -isystem \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -O0 --coverage -g -fsanitize=address -g -std=c++17 -fPIC -o CMakeFiles/BuzvisApp.dir/src/main.cpp.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/main.cpp\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/main.cpp",
+  "output": "CMakeFiles/BuzvisApp.dir/src/main.cpp.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/karan/.pyenv/versions/3.9.20/include/python3.9 -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/include\" -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -isystem \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -O0 --coverage -g -fsanitize=address -g -std=c++17 -fPIC -o CMakeFiles/BuzvisApp.dir/src/app/BuzvisApp.cpp.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/app/BuzvisApp.cpp\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/app/BuzvisApp.cpp",
+  "output": "CMakeFiles/BuzvisApp.dir/src/app/BuzvisApp.cpp.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/karan/.pyenv/versions/3.9.20/include/python3.9 -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/include\" -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -isystem \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -O0 --coverage -g -fsanitize=address -g -std=c++17 -fPIC -o CMakeFiles/BuzvisApp.dir/src/modules/ASRHandler.cpp.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/ASRHandler.cpp\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/ASRHandler.cpp",
+  "output": "CMakeFiles/BuzvisApp.dir/src/modules/ASRHandler.cpp.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/karan/.pyenv/versions/3.9.20/include/python3.9 -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/include\" -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -isystem \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -O0 --coverage -g -fsanitize=address -g -std=c++17 -fPIC -o CMakeFiles/BuzvisApp.dir/src/modules/SpeechSynthesis.cpp.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/SpeechSynthesis.cpp\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/SpeechSynthesis.cpp",
+  "output": "CMakeFiles/BuzvisApp.dir/src/modules/SpeechSynthesis.cpp.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/karan/.pyenv/versions/3.9.20/include/python3.9 -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/include\" -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -isystem \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -O0 --coverage -g -fsanitize=address -g -std=c++17 -fPIC -o CMakeFiles/BuzvisApp.dir/src/modules/CalendarManager.cpp.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/CalendarManager.cpp\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/CalendarManager.cpp",
+  "output": "CMakeFiles/BuzvisApp.dir/src/modules/CalendarManager.cpp.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/karan/.pyenv/versions/3.9.20/include/python3.9 -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/include\" -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -isystem \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -O0 --coverage -g -fsanitize=address -g -std=c++17 -fPIC -o CMakeFiles/BuzvisApp.dir/src/modules/TaskManager.cpp.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/TaskManager.cpp\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/TaskManager.cpp",
+  "output": "CMakeFiles/BuzvisApp.dir/src/modules/TaskManager.cpp.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/karan/.pyenv/versions/3.9.20/include/python3.9 -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/include\" -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -isystem \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -O0 --coverage -g -fsanitize=address -g -std=c++17 -fPIC -o CMakeFiles/BuzvisApp.dir/src/modules/CommunicationHandler.cpp.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/CommunicationHandler.cpp\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/modules/CommunicationHandler.cpp",
+  "output": "CMakeFiles/BuzvisApp.dir/src/modules/CommunicationHandler.cpp.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/karan/.pyenv/versions/3.9.20/include/python3.9 -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/include\" -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -isystem \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/BuzvisApp_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -O0 --coverage -g -fsanitize=address -g -std=c++17 -fPIC -o CMakeFiles/BuzvisApp.dir/src/ui/mainwindow.cpp.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/ui/mainwindow.cpp\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/src/ui/mainwindow.cpp",
+  "output": "CMakeFiles/BuzvisApp.dir/src/ui/mainwindow.cpp.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -O0 --coverage -g -fsanitize=address -g -std=c++17 -o _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/src/format.cc\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/src/format.cc",
+  "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o"
+},
+{
+  "directory": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan",
+  "command": "/usr/bin/clang++ -I\"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/include\" -O0 --coverage -g -fsanitize=address -g -std=c++17 -o _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o -c \"/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/src/os.cc\"",
+  "file": "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-src/src/os.cc",
+  "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o"
+}
+]

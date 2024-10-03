@@ -1,0 +1,16 @@
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/CMakeFiles/BuzvisApp.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/CMakeFiles/edit_cache.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/CMakeFiles/rebuild_cache.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/CMakeFiles/list_install_components.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/CMakeFiles/install.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/CMakeFiles/install/local.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/CMakeFiles/install/strip.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/CMakeFiles/BuzvisApp_autogen_timestamp_deps.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/CMakeFiles/BuzvisApp_autogen.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-build/CMakeFiles/fmt.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-build/CMakeFiles/edit_cache.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-build/CMakeFiles/rebuild_cache.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-build/CMakeFiles/list_install_components.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-build/CMakeFiles/install.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-build/CMakeFiles/install/local.dir
+/media/karan/New Volume/8Python/BUZVIS++/buzvis-/build/clang-deb-ninja-conan/_deps/fmt-build/CMakeFiles/install/strip.dir
