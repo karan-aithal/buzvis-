@@ -1,0 +1,9 @@
+/home/karan/Documents/BuzvisPlus/build/CMakeFiles/BuzvisPlus.dir
+/home/karan/Documents/BuzvisPlus/build/CMakeFiles/edit_cache.dir
+/home/karan/Documents/BuzvisPlus/build/CMakeFiles/rebuild_cache.dir
+/home/karan/Documents/BuzvisPlus/build/CMakeFiles/list_install_components.dir
+/home/karan/Documents/BuzvisPlus/build/CMakeFiles/install.dir
+/home/karan/Documents/BuzvisPlus/build/CMakeFiles/install/local.dir
+/home/karan/Documents/BuzvisPlus/build/CMakeFiles/install/strip.dir
+/home/karan/Documents/BuzvisPlus/build/CMakeFiles/BuzvisPlus_autogen_timestamp_deps.dir
+/home/karan/Documents/BuzvisPlus/build/CMakeFiles/BuzvisPlus_autogen.dir

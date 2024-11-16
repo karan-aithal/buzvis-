@@ -1,1 +1,0 @@
-. "/media/karan/New Volume/8Python/BUZVIS++/buzvis-/conan/deb/deactivate_conanrunenv-debug-x86_64.sh"

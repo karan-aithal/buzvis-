@@ -1,21 +1,21 @@
-#include "../app/BuzvisApp.h"
-#include "../ui/mainwindow.h"
+// #include "BuzvisApp.h"
+// #include "../ui/mainwindow.h"
 
-BuzvisApp* BuzvisApp::instance = nullptr;
+// BuzvisApp* BuzvisApp::instance = nullptr;
 
-BuzvisApp* BuzvisApp::getInstance() {
-    if (instance == nullptr) {
-        instance = new BuzvisApp();
-    }
-    return instance;
-}
+// BuzvisApp* BuzvisApp::getInstance() {
+//     if (instance == nullptr) {
+//         instance = new BuzvisApp();
+//     }
+//     return instance;
+// }
 
-BuzvisApp::BuzvisApp(QWidget* parent) : QMainWindow(parent) {
-    // Setup the main UI
-    MainWindow* mainWindow = new MainWindow(this);
-    setCentralWidget(mainWindow);
-}
+// BuzvisApp::BuzvisApp(QWidget* parent) : QMainWindow(parent) {
+//     // Setup the main UI
+//     QMainWindow* mainWindow = new MainWindow(this);
+//     setCentralWidget(mainWindow);
+// }
 
-void BuzvisApp::show() {
-    QMainWindow::show();
-}
+// void BuzvisApp::show() {
+//     QMainWindow::show();
+// }

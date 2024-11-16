@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_BuzvisPlus_FILE /home/karan/Documents/BuzvisPlus/build/BuzvisPlus)
+set(__QT_DEPLOY_TARGET_BuzvisPlus_TYPE EXECUTABLE)

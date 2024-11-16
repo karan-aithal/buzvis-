@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-54a7b05a214ee7052623.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BuzvisPlus",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BuzvisPlus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BuzvisPlus-Debug-b1e83663f11c59635e4f.json",
+					"name" : "BuzvisPlus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BuzvisPlus_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BuzvisPlus_autogen-Debug-29da740a0b14c5797da7.json",
+					"name" : "BuzvisPlus_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BuzvisPlus_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BuzvisPlus_autogen_timestamp_deps-Debug-76661b0a5c923b7dfd52.json",
+					"name" : "BuzvisPlus_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/karan/BuzvisPlus/build/Desktop_Qt_6_8_0-Debug",
+		"source" : "/home/karan/BuzvisPlus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

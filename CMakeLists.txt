@@ -1,100 +1,85 @@
-cmake_minimum_required(VERSION 3.28.3)
+cmake_minimum_required(VERSION 3.16)
 
-# Project name and version
-project(BuzvisApp VERSION 1.0 LANGUAGES CXX)
+project(BuzvisPlus VERSION 0.1 LANGUAGES CXX)
 
-# Require C++17
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Sql LinguistTools)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Sql LinguistTools)
 
 
+find_package(PostgreSQL REQUIRED)
 
-# Set the compiler to clang
-set(CMAKE_CXX_COMPILER "/usr/bin/clang++")
-set(CMAKE_C_COMPILER "/usr/bin/clang")
-set(CMAKE_MAKE_PROGRAM "/usr/bin/ninja")
+include_directories(${PostgreSQL_INCLUDE_DIRS})
 
-set(CMAKE_PREFIX_PATH "/home/karan/.pyenv/versions/3.9.20")
+set(TS_FILES BuzvisPlus_en_IN.ts)
 
-
-# Use ninja as the generator
-# set(CMAKE_GENERATOR Ninja)
-# set(CMAKE_CXX_EXTENSIONS OFF)
-# set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-# set(CMAKE_PREFIX_PATH "/home/karan/.pyenv/versions/python3.9.20")
-
-
-
-#Adding fmt with FetchContent
-include(FetchContent)                                   # enable FetchContent
-FetchContent_Declare(                                   # declare fmt repo
-    fmt                                                  # name of the content
-    GIT_REPOSITORY "https://github.com/fmtlib/fmt.git"   # the repository
-    GIT_TAG "11.0.2"                                     # the tag
-    GIT_SHALLOW On
-)
-FetchContent_MakeAvailable(fmt)                         # make available
-
-
-
-# Find required Qt components
-# Enable Qt's AUTOMOC for moc generation
-set(CMAKE_AUTOMOC ON)
-# Find required Qt components
-find_package(Qt5 COMPONENTS Core Widgets Gui REQUIRED)
-
-# Find Python 3.9 with development headers
-find_package(Python3 3.9 REQUIRED COMPONENTS Development)
-
-# include_directories(/usr/include/python3.9)
-# Include directories for Python
-include_directories(${Python3_INCLUDE_DIRS})
-
-# Link directories for Python
-link_directories(${Python3_LIBRARY_DIRS})
-
-# Include directories for the project
-include_directories(include)
-
-# Add Python directories manually if using pyenv
-
-# set(PYTHON_INCLUDE_DIR "/home/karan/.pyenv/versions/3.9.20/include/python3.9")
-# set(PYTHON_LIBRARY_DIR "/home/karan/.pyenv/versions/3.9.20/lib")
-
-# Include directories for libraries
-# include_directories(include)
-
-# Source files or executables
-# Add executable and source files
-add_executable(${PROJECT_NAME}
-    src/main.cpp
-    src/app/BuzvisApp.cpp
-    src/modules/ASRHandler.cpp
-    src/modules/SpeechSynthesis.cpp
-    src/modules/CalendarManager.cpp
-    src/modules/TaskManager.cpp
-    src/modules/CommunicationHandler.cpp
-    src/ui/mainwindow.cpp
+set(PROJECT_SOURCES
+        main.cpp
+        mainwindow.cpp
+        mainwindow.h
+        mainwindow.ui
+        ${TS_FILES}
 )
 
-# Link Qt libraries# Link Qt libraries, Python libraries, and fmt
-target_link_libraries(${PROJECT_NAME}
-Qt5::Core
-Qt5::Widgets
-Qt5::Gui
-${Python3_LIBRARIES}
-fmt::fmt  # Link fmt library
+if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    qt_add_executable(BuzvisPlus
+        MANUAL_FINALIZATION
+        ${PROJECT_SOURCES}
+    )
+# Define target properties for Android with Qt 6 as:
+#    set_property(TARGET BuzvisPlus APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
+#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
+# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
+
+    qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
+else()
+    if(ANDROID)
+        add_library(BuzvisPlus SHARED
+            ${PROJECT_SOURCES}
+        )
+# Define properties for Android with Qt 5 after find_package() calls as:
+#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+    else()
+        add_executable(BuzvisPlus
+            ${PROJECT_SOURCES}
+        )
+    endif()
+
+    qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
+endif()
+
+target_link_libraries(BuzvisPlus PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+
+target_link_libraries(BuzvisPlus PRIVATE Qt${QT_VERSION_MAJOR}::Sql)
+target_link_libraries(BuzvisPlus PRIVATE ${PostgreSQL_LIBRARIES})
+
+# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
+# If you are developing for iOS or macOS you should consider setting an
+# explicit, fixed bundle identifier manually though.
+if(${QT_VERSION} VERSION_LESS 6.1.0)
+  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.BuzvisPlus)
+endif()
+set_target_properties(BuzvisPlus PROPERTIES
+    ${BUNDLE_ID_OPTION}
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
 )
 
-# Message to display Python paths found
-message(STATUS "Python3 include directories: ${Python3_INCLUDE_DIRS}")
-message(STATUS "Python3 libraries: ${Python3_LIBRARIES}")
+include(GNUInstallDirs)
+install(TARGETS BuzvisPlus
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
 
-
-# set(CMAKE_PREFIX_PATH "/venv/lib/python3.12/site-packages")
-
-#set(CMAKE_PYTHON_INTERPRETER "/venv/bin/python")  # Adjust for your virtual environment
-
-
+if(QT_VERSION_MAJOR EQUAL 6)
+    qt_finalize_executable(BuzvisPlus)
+endif()

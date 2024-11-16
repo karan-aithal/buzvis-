@@ -1,0 +1,20 @@
+# ninja log v5
+624	3415	1731781149251319049	CMakeFiles/BuzvisPlus.dir/BuzvisPlus_autogen/mocs_compilation.cpp.o	7cd8eb776758076a
+107	623	1731781146463231485	/home/karan/BuzvisPlus/build/Desktop_Qt_6_8_0-Debug/BuzvisPlus_autogen/mocs_compilation.cpp	9985fce1cebc39e7
+107	623	1731781146463231485	/home/karan/BuzvisPlus/build/Desktop_Qt_6_8_0-Debug/BuzvisPlus_autogen/timestamp	9985fce1cebc39e7
+624	3551	1731781149388323356	CMakeFiles/BuzvisPlus.dir/main.cpp.o	fde0e47b8fafbaa9
+107	623	1731781146463231485	BuzvisPlus_autogen/mocs_compilation.cpp	9985fce1cebc39e7
+107	623	1731781146463231485	BuzvisPlus_autogen/timestamp	9985fce1cebc39e7
+5	84	1731781242939331584	/home/karan/BuzvisPlus/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/cmake.verify_globs	fef16192a94a5321
+84	455	1731781243326344294	build.ninja	d4d1c5474409feda
+2	70	0	/home/karan/BuzvisPlus/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/cmake.verify_globs	fef16192a94a5321
+72	457	1731781243797359765	BuzvisPlus_autogen/timestamp	9985fce1cebc39e7
+72	457	1731781243797359765	BuzvisPlus_autogen/mocs_compilation.cpp	9985fce1cebc39e7
+72	457	1731781243797359765	/home/karan/BuzvisPlus/build/Desktop_Qt_6_8_0-Debug/BuzvisPlus_autogen/timestamp	9985fce1cebc39e7
+72	457	1731781243797359765	/home/karan/BuzvisPlus/build/Desktop_Qt_6_8_0-Debug/BuzvisPlus_autogen/mocs_compilation.cpp	9985fce1cebc39e7
+457	5139	1731781248463513193	CMakeFiles/BuzvisPlus.dir/mainwindow.cpp.o	29b02f6492912326
+457	5149	1731781248460513094	CMakeFiles/BuzvisPlus.dir/BuzvisPlus_autogen/mocs_compilation.cpp.o	7cd8eb776758076a
+457	5508	1731781248833525371	CMakeFiles/BuzvisPlus.dir/main.cpp.o	fde0e47b8fafbaa9
+5508	6475	1731781249810557539	BuzvisPlus	4c63de9acf7ca18
+7	97	0	/home/karan/BuzvisPlus/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/cmake.verify_globs	fef16192a94a5321
+3	79	0	/home/karan/BuzvisPlus/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/cmake.verify_globs	fef16192a94a5321

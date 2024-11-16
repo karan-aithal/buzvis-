@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/karan/Documents/BuzvisPlus/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/karan/Documents/BuzvisPlus/build/BuzvisPlus_autogen/include -I/usr/include/postgresql -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/karan/Qt/6.8.0/gcc_64/include -isystem /home/karan/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/BuzvisPlus.dir/BuzvisPlus_autogen/mocs_compilation.cpp.o -c /home/karan/Documents/BuzvisPlus/build/BuzvisPlus_autogen/mocs_compilation.cpp",
+  "file": "/home/karan/Documents/BuzvisPlus/build/BuzvisPlus_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/BuzvisPlus.dir/BuzvisPlus_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/karan/Documents/BuzvisPlus/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/karan/Documents/BuzvisPlus/build/BuzvisPlus_autogen/include -I/usr/include/postgresql -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/karan/Qt/6.8.0/gcc_64/include -isystem /home/karan/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/BuzvisPlus.dir/main.cpp.o -c /home/karan/Documents/BuzvisPlus/main.cpp",
+  "file": "/home/karan/Documents/BuzvisPlus/main.cpp",
+  "output": "CMakeFiles/BuzvisPlus.dir/main.cpp.o"
+},
+{
+  "directory": "/home/karan/Documents/BuzvisPlus/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/karan/Documents/BuzvisPlus/build/BuzvisPlus_autogen/include -I/usr/include/postgresql -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/karan/Qt/6.8.0/gcc_64/include -isystem /home/karan/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtWidgets -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/karan/Qt/6.8.0/gcc_64/include/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/BuzvisPlus.dir/mainwindow.cpp.o -c /home/karan/Documents/BuzvisPlus/mainwindow.cpp",
+  "file": "/home/karan/Documents/BuzvisPlus/mainwindow.cpp",
+  "output": "CMakeFiles/BuzvisPlus.dir/mainwindow.cpp.o"
+}
+]
